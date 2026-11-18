@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA - Thời trang hiện đại</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#" aria-label="Trang chủ NOVA">NOVA<span>.</span></a>
+            <nav class="main-nav" aria-label="Điều hướng chính">
+                <a href="#hero">Trang chủ</a>
+                <a href="#products">Sản phẩm</a>
+                <a href="#products">Bộ sưu tập</a>
+                <a href="#footer">Liên hệ</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-button" type="button" aria-label="Tìm kiếm">
+                    <span aria-hidden="true">⌕</span>
+                </button>
+                <button class="icon-button" type="button" aria-label="Giỏ hàng">
+                    <span aria-hidden="true">Bag</span>
+                    <span class="cart-count">2</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Bộ sưu tập mùa mới</p>
+                <h1>Phong cách<br>thuần khiết</h1>
+                <p class="hero-description">Những thiết kế tối giản, dễ mặc và bền bỉ cho nhịp sống hàng ngày.</p>
+                <a class="primary-button" href="#products">Khám phá ngay <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-image" role="img" aria-label="Người mẫu mặc trang phục tối giản"></div>
+            <div class="hero-note">
+                <strong>SUMMER / 26</strong>
+                <span>THE NEW ESSENTIALS</span>
+            </div>
+        </section>
+        <section class="products-section" id="products">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Sản phẩm nổi bật</p>
+                    <h2>Must-have của mùa</h2>
+                </div>
+                <a href="#">Xem tất cả <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <span class="sale-badge">-30%</span>
+                    <button class="favorite-button" type="button" aria-label="Yêu thích Áo linen cổ tròn">♡</button>
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=85" alt="Áo linen cổ tròn màu kem">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Áo sơ mi</p>
+                        <h3>Áo linen cổ tròn</h3>
+                        <div class="product-bottom">
+                            <div class="price"><strong>690.000đ</strong><del>980.000đ</del></div>
+                            <button class="buy-button" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <span class="sale-badge">-20%</span>
+                    <button class="favorite-button" type="button" aria-label="Yêu thích Áo khoác oversize">♡</button>
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=85" alt="Áo khoác oversize màu xanh">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Outerwear</p>
+                        <h3>Áo khoác oversize</h3>
+                        <div class="product-bottom">
+                            <div class="price"><strong>1.440.000đ</strong><del>1.800.000đ</del></div>
+                            <button class="buy-button" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <span class="sale-badge new-badge">New</span>
+                    <button class="favorite-button" type="button" aria-label="Yêu thích Túi tote Studio">♡</button>
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=85" alt="Túi tote studio màu nâu">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Phụ kiện</p>
+                        <h3>Túi tote Studio</h3>
+                        <div class="product-bottom">
+                            <div class="price"><strong>520.000đ</strong></div>
+                            <button class="buy-button" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <span class="sale-badge">-15%</span>
+                    <button class="favorite-button" type="button" aria-label="Yêu thích Quần suông dài">♡</button>
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=85" alt="Quần suông dài màu be">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Quần</p>
+                        <h3>Quần suông dài</h3>
+                        <div class="product-bottom">
+                            <div class="price"><strong>765.000đ</strong><del>900.000đ</del></div>
+                            <button class="buy-button" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <span class="sale-badge new-badge">New</span>
+                    <button class="favorite-button" type="button" aria-label="Yêu thích Áo thun Essential">♡</button>
+                    <div class="product-image-wrap">
+                        <img src="assets/ao-thun-essential.jpg" alt="Áo thun Essential màu đen">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Áo thun</p>
+                        <h3>Áo thun Essential</h3>
+                        <div class="product-bottom">
+                            <div class="price"><strong>390.000đ</strong></div>
+                            <button class="buy-button" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <span class="sale-badge">-25%</span>
+                    <button class="favorite-button" type="button" aria-label="Yêu thích Giày sneaker Mono">♡</button>
+                    <div class="product-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85" alt="Giày sneaker màu đỏ">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Giày dép</p>
+                        <h3>Giày sneaker Mono</h3>
+                        <div class="product-bottom">
+                            <div class="price"><strong>1.125.000đ</strong><del>1.500.000đ</del></div>
+                            <button class="buy-button" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <a class="back-to-top" href="#hero" aria-label="Quay lại đầu trang">↑</a>
+    <footer class="footer" id="footer">
+        <a class="brand footer-brand" href="#">NOVA<span>.</span></a>
+        <p>Design for everyday life.</p>
+    </footer>
+</body>
+</html>
